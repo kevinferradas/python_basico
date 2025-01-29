@@ -32,6 +32,11 @@ git rm -cached nom_de_fichero
 Para pasar a commit (ficheros validados )
 git commit -m "mensaje"
 
+Cuando hay cambios en un ficheros
+git commit -a
+
+
+Instrucciones para GitHub
 git remote add origin https://github.com/kevinferradas/python_basico.git
 git branch -M main
 git push -u origin main
