@@ -1,6 +1,8 @@
 Configuración de GIT (sólo 1 vez)
+
 Nombre del usuario
 git config --global user.name "nombre usuario"
+
 Dirección del email
 git config --global user.email tu.email@lo.que.sea
 
@@ -27,4 +29,9 @@ git add .
 Para volver a la fase inicial
 git rm -cached nom_de_fichero
 
-mmmm
+Para pasar a commit (ficheros validados )
+git commit -m "mensaje"
+
+git remote add origin https://github.com/kevinferradas/python_basico.git
+git branch -M main
+git push -u origin main
