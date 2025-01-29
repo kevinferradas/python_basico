@@ -1,0 +1,30 @@
+Configuración de GIT (sólo 1 vez)
+Nombre del usuario
+git config --global user.name "nombre usuario"
+Dirección del email
+git config --global user.email tu.email@lo.que.sea
+
+Configurar el editor de código (VSC)
+git config --global core.editor "code --wait"
+
+Corrección de salto de línea (true -> windows input->linux)
+git config --global core.autocrlf true
+
+
+Para ver la configuración actual
+git config --global -e
+
+===========================================
+Iniciamos el repositorio ( solo al empezar el proyecto)
+git init 
+
+Para ver el estado del repositorio
+git status
+
+Para pasar a la fase Stage
+git add . 
+
+Para volver a la fase inicial
+git rm -cached nom_de_fichero
+
+mmmm
