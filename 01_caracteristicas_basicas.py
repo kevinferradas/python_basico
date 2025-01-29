@@ -18,7 +18,29 @@ CARACTERÍSTICAS BÁSICAS DE PYTHON
 # No debemos hacer  (no son exactamente errores):
 #     Contener caracteres fuera del idioma inglés, como ñ, ç, tildes, á,ö, etc
 #     Empezar por guión bajo (reservado para determinadas situaciones)
+#     Utilizar palabras reservadas del sistema (True, False)
 
-# Qué debemos hacer:
-#     Nombrar a nuestras variables con palabras descriptivas
-#     Podemos usar más de una palabra separadas por un guión bajo (directiva PEP-8)
+   
+#  Qué debemos hacer:
+#      Nombrar a nuestras variables con palabras descriptivas
+#      Podemos usar más de una palabra separadas por un guión bajo (directiva PEP-8)
+
+# Las variables tienen tipo
+#     -- números -> enteros (int), decimales (float), complejos 
+#     -- texto -> strings
+#     -- booleanos -> True/False
+
+# En Python, por defecto NO existen las constantes
+
+# PI = 3.1416 ( se estila poner las constantes en mayúsculas)
+    
+# PYTHON ES DE TIPADO DINÁMICO 
+
+# numero = 1 # entero
+# numero = "uno" # string
+
+# PYTHON ES DE TIPADO FUERTE 
+
+# suma = numero + 2 # Error -> no se pueden sumar números y texto
+# concatenacion = numero + str(2)
+# suma_numerica = int("1") + 2

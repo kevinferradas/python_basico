@@ -28,12 +28,12 @@ from datetime import datetime
 print(datetime.now())
 
 suma = 1 + 3
-resta= 1-4
+reta= 1-4
 multiplicacion = 4*2
 division = 10/5
 exponencial= 4** 0.5
 division_entera= 20//6
-modulo= 20%3
+modulo= 20%3s
 
 
 print(modulo)
