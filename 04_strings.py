@@ -84,6 +84,8 @@ print(frase.replace("a","i"))
 palabras_en_frase = frase.split(" ")
 print(len(palabras_en_frase))
 
+frase_2= " ".join(palabras_en_frase)
+
 print (10>5)
 print("abeja" > "flor") 
 
@@ -95,4 +97,10 @@ print(texto.lower())
 texto=texto.lower()
 print(texto.capitalize())
 texto= texto.capitalize()
+
+
+#quita espacios del principio y el final
+texto_con_espacios= "          Hola   "
+texto_sin_espacios= texto_con_espacios.strip()
+print("texto_sin_espacios",texto_sin_espacios)
 

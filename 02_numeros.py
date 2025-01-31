@@ -40,3 +40,8 @@ print(1<=1) # True
 
 # True = False # Error crítico de sintáxis
 
+"""
+MÉTODOS PARA NÚMEROS
+"""
+#redondear un número a la izquierda o derecha
+redondear_izquierda= round(3.14159265359, 2) 
