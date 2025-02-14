@@ -7,6 +7,8 @@ Hay tres precios:
 - Entrada estándar: 9.00
 - Mayores de 65 años (seniors) : 6.90
 - Infantiles : 7.20
+- Día del espectador: 5.00 euros
+
 
 Se puede vender cualquier cantidad de entradas,
 pero los menores siempre deber ir acompañados
