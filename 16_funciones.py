@@ -53,12 +53,34 @@ os.system ("cls")
 # alumno_2= mostrar_datos_alumno("Joan", "Pou", True)
 # print(alumno_2)
 
-def sumar(*argv) : # no necesariamente debemos poner argv
-    print(argv)
-    print(type(argv)) # <class 'tuple'>
+# def sumar(*argv) : # no necesariamente debemos poner argv
+#     print(argv)
+#     print(type(argv)) # <class 'tuple'>
 
-sumar(1,2)
-sumar(3,4,5)
-sumar(3,7,907)
+# sumar(1,2)
+# sumar(3,4,5)
+# sumar(3,7,907)
 
 # EL RETURN DEBE SER LO ÚLTIMO
+
+def separarNombre( apellido_nombre: str ) -> str :
+    """
+    Devolverá de forma separada el nombre y el apellido
+
+    @ Params:
+    str -> "Apellido, Nombre"
+    
+    @ Return
+    str -> Nombre \n
+    str -> Apellido \n
+    """
+    lista_datos =apellido_nombre.replace(" ","").split(",")
+    apellido= lista_datos[0].strip()
+    nombre = lista_datos[1].strip()
+    return nombre, apellido
+    
+nombre, apellido = separarNombre("Ferradas, Kevin")
+print(nombre, apellido)
+
+# help(separarNombre)
+print(separarNombre.__doc__)
