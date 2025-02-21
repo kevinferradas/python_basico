@@ -60,9 +60,11 @@ class Moto (Vehiculo):
 
     def revisar_seguridad(self):
         return f"Si circulas en motocicleta debes llevar casco"
-        
+
+# objetos     
 cochazo = Coche("Toyota","TY2025",2025,4,True)
 motazo = Moto("Mercedes","M2024",2024)
+
 print(cochazo.arrancar())
 print(cochazo.detener())
 print(cochazo.abrir_maletero())
