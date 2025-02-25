@@ -6,6 +6,10 @@ La clave puede ser un string, un número, una tupla,...
 Los diccionarios son mutables.
 {} <-- llaves
 """
+import os
+os.system ("cls")
+
+
 dic_1= {}
 list_1=[]
 
@@ -14,7 +18,7 @@ if  not list_1: # Como la lista 1 está vacía, es equivalente a False.
     print("La lista está vacía")
 
 dic_1 = {"nombre":"Maria" , "apellido":"Callas", "edad":53}
-print(dic_1["nombre"])
+print(21,dic_1["nombre"])
 
 clave= "nombre"
 
