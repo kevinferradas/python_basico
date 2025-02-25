@@ -71,8 +71,8 @@ Códigos de error:
     
 
 
-# age = calcula_edad("2/9/1969","2/9/2025")
-# print(age)
+age = calcula_edad("28/6/1995","29/6/2025")
+print(age)
 
     
 

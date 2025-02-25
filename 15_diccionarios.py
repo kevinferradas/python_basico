@@ -30,8 +30,9 @@ for propiedad in dic_1.keys():
 
 # Iteración específica de valores
 for propiedad in dic_1.values():
-    print(propiedad)
+    print(33,propiedad)
 
+print(dic_1.values())
 # Iteración específica de valores
 for clave, valor in dic_1.items():
     print(f"{clave}: {valor}")

@@ -42,7 +42,7 @@ while True:
         numero_partidas = int(input ("Cuántas partidas quieres jugar (entre 1 y 5, 0 para salir)? --> "))
 
         # Si el usuario escribe "0", mostramos mensaje de despedida.
-        if numero_partidas==0:
+        if numero_partidas == 0 :
             print (f"Hasta pronto {nombre_usuario}!")
             break # salimos del bucle while
 
@@ -75,8 +75,8 @@ while contador_de_partidas <= numero_partidas:
     contador_de_partidas +=1 # añadimos una unidad al contador de partidas
 
 
-    # Informar al usuario de las opciones del juego: 1.Piedra , 2. Papel, 3. Tijera 
-    menu=f"""
+    # Menú con las opciones del juego: 1.Piedra , 2. Papel, 3. Tijera 
+    menu = f"""
     PIEDRA - PAPEL - TIJERAS
     ========================
     1. {opciones_juego[0]} 
@@ -123,6 +123,9 @@ while contador_de_partidas <= numero_partidas:
             print(f"{nombre_usuario}, habéis empatado.") # Mostramos resultado 
             
         # posibilidades de victoria para el usuario
+        # Piedra gana a tijera
+        # Papel gana a piedra
+        # Tijera gana a papel 
         elif (opcion_humano =="1" and opcion_maquina=="3")  or \
             (opcion_humano =="2" and opcion_maquina=="1")  or \
             (opcion_humano =="3" and opcion_maquina=="2"):
@@ -135,7 +138,7 @@ while contador_de_partidas <= numero_partidas:
             print(f"{nombre_usuario} Has perdido!!") # Mostramos resultado
             partidas_perdidas +=1 # se suma una unidad al contador de victorias.
             
-        # Después de cada partida mostraremos el histórico de partidas.
+        # Después de cada partida mostraremos el histórico de victorias, empates y derrotas.
         resultado_actual = f"""
     Ganadas: {partidas_ganadas} | Empates : {empates} | Perdidas : {partidas_perdidas}
         \n\n    

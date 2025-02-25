@@ -67,12 +67,16 @@ def separarNombre( apellido_nombre: str ) -> str :
     """
     Devolverá de forma separada el nombre y el apellido
 
-    @ Params:
-    str -> "Apellido, Nombre"
+    Args:
+        str -> "Apellido, Nombre"
+
+    Returns:
+        str -> Nombre \n
+        str -> Apellido \n
+
     
-    @ Return
-    str -> Nombre \n
-    str -> Apellido \n
+    
+    
     """
     lista_datos =apellido_nombre.replace(" ","").split(",")
     apellido= lista_datos[0].strip()
